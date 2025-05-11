@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color: #ecff6f;
+    font-family: 'Helvetica Neue', sans-serif;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 화면 전체 높이 */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  font-size: 28px;
+  color: #222;
+  width: 588px;          /* canvas와 똑같은 너비로 맞춤 */
+  text-align: center;    /* 텍스트 자체는 가운데 정렬 */
+  }
+  
+  input[type="file"] {
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  
+  canvas {
+  }
+  
+  .upload-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .upload-btn {
+    background-color: transparent;
+    border: 1px solid #333;
+    color: #333;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+  }
+  
+  .upload-btn:hover {
+ 
+  }
+  
+  #file-name {
+    font-size: 13px;
+    color: #666;
+  }
+  
